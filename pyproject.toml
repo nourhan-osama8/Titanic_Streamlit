@@ -1,22 +1,17 @@
 [project]
 name = "titanic-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "Titanic survival analysis Streamlit app"
 readme = "README.md"
 authors = [
     { name = "Nourhan", email = "nourhanosamaabd88@gmail.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
-    "pandas==2.2.3",
-    "plotly==5.24.1",
-    "streamlit==1.67.0",
+    "pandas>=2.0.0",
+    "plotly>=5.0.0",
+    "streamlit>=1.30.0",
 ]
 
-[project.scripts]
-titanic-app = "titanic_app:main"
-
 [tool.uv]
-package=false
-
-
+package = false
