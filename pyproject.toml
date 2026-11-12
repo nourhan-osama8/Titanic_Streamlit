@@ -16,7 +16,7 @@ dependencies = [
 [project.scripts]
 titanic-app = "titanic_app:main"
 
-[tool.csv]
+[tool.uv]
 package=false
 
 
